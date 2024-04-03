@@ -4,7 +4,9 @@
   "description": "Starter kit for Cotera Dev Mode",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "format": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,9 @@
   },
   "homepage": "https://github.com/coterahq/cotera-dev-mode#readme",
   "devDependencies": {
-    "vite": "^5.2.8",
-    "vite-node": "^1.4.0",
-    "vitest": "^1.4.0"
+    "prettier": "3.2.5",
+    "vite": "^4.5.3",
+    "vite-plugin-node": "^3.1.0"
   },
   "dependencies": {
     "@cotera/era": "0.0.34",

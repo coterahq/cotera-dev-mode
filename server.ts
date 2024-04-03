@@ -1,3 +1,9 @@
-export const foo = 1;
+import { FluentManifest, buildDevServer } from "@cotera/sdk";
 
-console.log(1);
+// Connect with Vite
+export const viteNodeApp = buildDevServer(
+  async () => {
+    const { manifest } = await import('./era.js');
+    return FluentManifest.fromShorthand(manifest);
+  }
+);
