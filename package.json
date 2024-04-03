@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/coterahq/cotera-dev-mode/issues"
   },
-  "homepage": "https://github.com/coterahq/cotera-dev-mode#readme"
+  "homepage": "https://github.com/coterahq/cotera-dev-mode#readme",
+  "devDependencies": {
+    "vite": "^5.2.8",
+    "vite-node": "^1.4.0",
+    "vitest": "^1.4.0"
+  }
 }
