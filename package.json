@@ -20,5 +20,9 @@
     "vite": "^5.2.8",
     "vite-node": "^1.4.0",
     "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "@cotera/era": "0.0.34",
+    "@cotera/sdk": "0.0.34"
   }
 }
