@@ -6,9 +6,9 @@ export const manifest: ManifestShorthand = {
     "Some Values": From([{ n: 1 }, { n: 2 }, { n: 3 }]),
   },
   apps: {
-    "some-other-app": ["# Some Title", "bar", "baz", 'quuz'],
+    "some-other-app": ["# Some Title", "bar", "baz", "quuz"],
     "some-app": [
-      "# Hello",
+      "# Hello World",
       From([{ n: 1 }, { n: 2 }, { n: 3 }]).select((t) => ({
         foo: t.attr("n"),
       })),
