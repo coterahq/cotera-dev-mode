@@ -1,0 +1,19 @@
+{
+  "name": "cotera-dev-mode",
+  "version": "1.0.0",
+  "description": "Starter kit for Cotera Dev Mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coterahq/cotera-dev-mode.git"
+  },
+  "author": "Coterahq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coterahq/cotera-dev-mode/issues"
+  },
+  "homepage": "https://github.com/coterahq/cotera-dev-mode#readme"
+}
