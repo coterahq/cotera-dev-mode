@@ -17,5 +17,5 @@ npm run dev
 ## Line numbers
 
 We're still trying to get line numbers in error messages to survive the `.ts`
-=> `.js` translation. They work great in in vitest though, so `npm run test
---watch` will let you see where the errors are
+=> `.js` translation. They work great in in vitest though, so `npm run test`
+will let you see where the errors are
