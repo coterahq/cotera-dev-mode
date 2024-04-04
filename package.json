@@ -19,12 +19,11 @@
   },
   "homepage": "https://github.com/coterahq/cotera-dev-mode#readme",
   "devDependencies": {
-    "esbuild": "^0.20.2",
     "prettier": "3.2.5",
     "vitest": "^1.4.0"
   },
   "dependencies": {
-    "@cotera/era": "0.0.34",
-    "@cotera/sdk": "0.0.34"
+    "@cotera/era": "0.0.36",
+    "@cotera/sdk": "0.0.36"
   }
 }
